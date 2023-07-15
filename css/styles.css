@@ -1,0 +1,220 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Urbanist&display=swap');
+
+:root{
+    --cor-principal: #011936;
+    --cor-secundaria: #F2EFEA;    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    /* box-sizing: border-box; */
+    background-color: var(--cor-secundaria);
+}
+
+.cabecalho{
+    padding: 1% 0 1% 10%;
+    background-color: var(--cor-principal);
+    
+}
+
+.cabecalho__nav{
+    display: flex;    
+    gap: 80px;
+}
+
+.cabecalho__nav__logo{
+    margin-right: 25%;
+    color: var(--cor-secundaria);
+    font-size: 1.8rem;
+    font-family: 'Patua One', sans-serif;
+    text-align: center;
+    display: flex;
+}
+
+.cabecalho__nav__links{
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cabecalho__nav__links:hover{
+    font-size: 1.81rem;
+    transition: 0.1s ease;
+    color: #d6d3ce;
+}
+
+.introducao{
+    padding: 5% 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.introducao__conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.introducao__conteudo__titulo{
+    font-size: 1.8rem;
+    font-family: 'Patua One', sans-serif;
+    color: var(--cor-principal);
+}
+
+.introducao__conteudo__texto{
+    font-size: 1.5rem;
+    font-family: 'Urbanist', sans-serif;
+    color: var(--cor-principal);
+}
+
+
+.introducao__botoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.introducao__botoes__link{
+    font-size: 1.5rem;
+    font-family: 'Urbanist', sans-serif;
+    color: var(--cor-principal);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    border: var(--cor-principal) solid 1px;
+    border-radius: 8px;
+    width: 50%;
+    padding: 10px 0;
+}
+
+.introducao__botoes__link:hover{
+    background-color: #d6d3ce;
+    font-size: 1.6rem;
+    transition: 0.1s ease;
+}
+
+.introducao__img{
+    border-radius: 10px;
+}
+
+.rodape{
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    padding: 1%;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Patua One', sans-serif;
+}
+
+
+/* Responsividade */
+
+@media screen and (max-width: 1200px){
+
+    .cabecalho{
+        padding: 2%;
+        box-sizing: border-box;       
+    }
+
+    .cabecalho__nav{
+        justify-content: center;
+    }
+
+    .cabecalho__nav__links{
+        font-size: 1.6rem;
+    }
+
+    .introducao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .introducao__conteudo{
+        width: auto;
+    }
+
+    .introducao__conteudo__titulo{
+        margin-top: 2%;
+        text-align: center;
+    }  
+
+    
+
+}
+
+
+@media screen and (max-width:900px){
+    .cabecalho{    
+      width: 100vw;
+    }
+
+    .cabecalho__nav{
+        text-align: center;
+        justify-content: space-evenly;
+        width: 100%;
+        gap: 25px;
+    }
+
+    .cabecalho__nav__logo{
+        margin-right: 2%;
+
+    }
+
+    .introducao__conteudo{
+        width: auto;
+    }
+    
+    
+}
+
+@media screen and (max-width:500px){
+    .introducao__img{
+        width: 400px;
+        height: 530px;
+    }
+
+    .logo{
+        width: 28px;
+        height: 28px;
+    }
+
+    .cabecalho__nav{
+        text-align: center;
+    }
+
+    .cabecalho__nav__logo{
+        font-size: 1.4rem;
+        
+    }
+    
+    .cabecalho__nav__links{
+        font-size: 1.4rem;
+    }
+
+    .introducao__conteudo__titulo{
+        font-size: 1.4rem;
+    }
+
+    .introducao__conteudo__texto{
+        font-size: 1.3rem;
+
+    }
+
+    .rodape{
+        font-size: 0.9rem;
+    }
+
+}
