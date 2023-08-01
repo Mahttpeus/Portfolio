@@ -5,35 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="script.js" defer></script>
     <title>Introdução</title>
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header class="cabecalho">
         <nav class="cabecalho__nav">
-            <h1 class="cabecalho__nav__logo"><img src="assets/code-box-line.png" class="logo" alt="logo do site">Math</h1>
-            <a href="index.html" class="cabecalho__nav__links">Introdução</a>
-            <a href="conhecimento.html" class="cabecalho__nav__links">Conhecimentos</a>
+            <div class="cabecalho__nav__logo"><img src="assets/code-box-line.png" class="logo" alt="logo do site">Math</div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="cabecalho__nav__links">
+                <ul>
+                    <li><a href="index.html">Introdução</a></li>
+                    <li><a href="conhecimento.html">Conhecimentos</a></li>
+                </ul>
+            </div>           
+            
         </nav>
     </header>
-    <main class="introducao">
-        <section class="introducao__conteudo">
-            <h2 class="introducao__conteudo__titulo">Oi, eu sou o Matheus!</h1>
-            <p class="introducao__conteudo__texto">Bom, como vocês já viram, meu nome é Matheus, mas agora vamos a uma introdução um pouco mais detalhada sobre quem eu sou. Me chamo Matheus Martins Barbosa, nasci em fevereiro de 2000, atualmente eu tenho 23 anos e moro em São Paulo. Um aspirante na área de tecnologias e que gosta muito de computadores!               
+    <main class="container">
+        <section class="container__conteudo__conhec">
+            <h1 class="container__conteudo__titulo">Conhecimentos</h1>
+            <p class="container__conteudo__texto">Depois dessa pequena introdução, agora eu vou mostrar um pouco dos meus conhecimentos que eu adquiri durante meus estudos. Futuramente, essa página também vai agregar projetos que eu estarei me dedicando.            
             </p>
-            
-            <div class="introducao__botoes">
-                <h2 class="introducao__conteudo__titulo">Se quiser saber mais, você pode me achar aqui: </h2>
-                <a href="#" class="introducao__botoes__link"><img src="assets/github.png" alt="">Github</a>
-                <a href="#" class="introducao__botoes__link"><img src="assets/linkedin.png" alt="">LinkedIn</a>
-            </div>
+
+            <section class="container__conhecimento">
+                <div class="container__conhecimento__lista">
+                    <h2 class="container__conteudo__titulo">HTML e CSS</h2>
+                    <ul class="container__conteudo__texto" class="container__conteudo__texto">
+                        <li>Responsividade</li>
+                        <li>Flexbox</li>
+                        <li>Grid</li>
+                        <li>Formulários e Tabelas</li>
+                    </ul>                    
+                </div>
+                <div class="container__conhecimento__lista">
+                    <h2 class="container__conteudo__titulo">JavaScript</h2>
+                    <ul class="container__conteudo__texto">
+                        <li>Logica de programação</li>
+                        <li>Programação Orientada a Objetos</li>
+                        <li>Manipulação do DOM</li>
+                    </ul>
+                </div>
+                <div class="container__conhecimento__lista">
+                    <h2 class="container__conteudo__titulo">Python</h2>
+                    <ul class="container__conteudo__texto">
+                        <li>Logica de programação</li>
+                        <li>Programação Orientada a Objetos</li>
+                        <li>Collections</li>
+                    </ul>
+                </div>            
+                
+            </section>           
         </section>
-        <img src="assets/Eu.jpg" class="introducao__img" alt="Literalmente eu"/>
-
-
     </main>
     <footer class="rodape">
-        <h2>Desenvolido por Matheus</h2>
+        <h2>Desenvolvido por Matheus</h2>
     </footer>
 </body>
 </html>
