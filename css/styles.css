@@ -104,13 +104,13 @@ body{
 }
 
 .container__conteudo__titulo{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-family: 'Patua One', sans-serif;
     color: var(--cor-principal);
 }
 
 .container__conteudo__texto{
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: 'Urbanist', sans-serif;
     color: var(--cor-principal);
 }
@@ -131,7 +131,7 @@ body{
 }
 
 .container__botoes__link{
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-family: 'Urbanist', sans-serif;
     color: var(--cor-principal);
     text-decoration: none;
@@ -145,7 +145,7 @@ body{
 
 .container__botoes__link:hover{
     background-color: #d6d3ce;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     transition: 0.1s ease;
 }
 
