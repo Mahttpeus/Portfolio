@@ -110,7 +110,7 @@ body{
 }
 
 .container__conteudo__texto{
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: 'Urbanist', sans-serif;
     color: var(--cor-principal);
 }
@@ -126,12 +126,12 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 1rem;
+    gap: 1.3rem;
     margin-bottom: 8%;
 }
 
 .container__botoes__link{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-family: 'Urbanist', sans-serif;
     color: var(--cor-principal);
     text-decoration: none;
@@ -145,7 +145,7 @@ body{
 
 .container__botoes__link:hover{
     background-color: #d6d3ce;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     transition: 0.1s ease;
 }
 
